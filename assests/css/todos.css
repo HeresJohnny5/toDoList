@@ -34,6 +34,7 @@ input {
 	padding: 13px 13px 13px 20px;
 	box-sizing: border-box;
 	border: 3px solid rgba(0, 0, 0, 0);
+	display: none;
 }
 
 input:focus {
@@ -67,8 +68,10 @@ span {
 	color: white;
 	width: 0;
 	display: inline-block;
-	transition: 0.2s linear;
 	opacity: 0;
+	transition: 0.2s linear;
+	-webkit-transition: 0.2s linear;
+	-moz-transition: 0.2s linear;
 }
 
 li:hover span {
