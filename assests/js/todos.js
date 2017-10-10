@@ -20,6 +20,6 @@ $('input[type="text"]').keypress(function(event) {
 		var toDoText = $(this).val();
 		
 		$(this).val("");
-		$('ul').append('<li><span>X</span> ' + toDoText + '</li>');
+		$('ul').append('<li><span><i class="fa fa-trash" aria-hidden="true"></i></span> ' + toDoText + '</li>');
 	}
 });
